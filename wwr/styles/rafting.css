@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Chango&display=swap');
+
+:root {
+    --primary-color: #000447;
+    --secondary-color: #FFB300;
+    --accent1-color: #00C4EB;
+    --accent2-color: #FF4800;
+
+    --heading-font: 'Chango', serif;
+    --paragrapgh-font: 'Afacad', serif;
+
+    --nav-background-color: #000447;
+    --nav-link-color: #FF4800;
+    --nav-hover-link-color: #00C4EB;
+    --nav-hover-background-color: #FFB300;
+}
+
+h1, h2 {
+    font-family: var(--Chango);
+    color: var(--primary-color)
+}
