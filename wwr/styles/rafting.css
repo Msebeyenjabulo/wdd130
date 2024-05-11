@@ -15,7 +15,25 @@
     --nav-hover-background-color: #FFB300;
 }
 
-h1, h2 {
+.hero {
     font-family: var(--Chango);
-    color: var(--primary-color)
+    color: var(--primary-color);
+    position: relative;
+
 }
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+}
+
+.hero img {
+    float: right;
+}
+
+.sociallinks a img {
+    text-decoration: none; 
+  }
