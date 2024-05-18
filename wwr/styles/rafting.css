@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Chango&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Chango&display=swap');
 
 :root {
     --primary-color: #000447;
@@ -36,4 +36,125 @@
 
 .sociallinks a img {
     text-decoration: none; 
+  } */
+
+  @import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Chango&display=swap');
+
+  :root {
+      --primary-color: #000447;
+      --secondary-color: #FFB300;
+      --accent1-color: #00C4EB;
+      --accent2-color: #FF4800;
+  
+      --heading-font: 'Chango', serif;
+      --paragrapgh-font: 'Afacad', serif;
+  
+      --nav-background-color: #000447;
+      --nav-link-color: #FF4800;
+      --nav-hover-link-color: #00C4EB;
+      --nav-hover-background-color: #FFB300;
   }
+  
+  .hero {
+      font-family: var(--Chango);
+      color: var(--primary-color);
+      position: relative;
+  }
+  
+  .hero h1 {
+      position: absolute;
+  }
+  
+  .hero article {
+      position: absolute;
+  }
+  
+  .hero img {
+      float: right;
+  }
+  
+  .sociallinks a img {
+      text-decoration: none; 
+  }
+  
+  .header-container {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      padding: 1rem;
+      background-color: var(--nav-background-color);
+  }
+  
+  .logo img {
+      max-width: 100%;
+  }
+  
+  .navbar {
+      display: flex;
+      justify-content: flex-end;
+  }
+  
+  .navbar a {
+      text-decoration: none;
+      color: var(--nav-link-color);
+      margin-left: 1rem;
+      padding: 0.5rem 1rem;
+      transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar a:first-child {
+      margin-left: 0;
+  }
+  
+  .navbar a:hover {
+      color: var(--nav-hover-link-color);
+      background-color: var(--nav-hover-background-color);
+  }
+  
+  .grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      padding: 1rem;
+  }
+  
+  .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+  
+  .hero img {
+      max-width: 100%;
+  }
+  
+  .hero article {
+      max-width: 800px;
+      margin: 0 auto;
+  }
+  
+  .history,
+  .adventures {
+      padding: 1rem;
+  }
+  
+  .adventures img {
+      margin: 0.5rem;
+  }
+  
+  footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+  }
+  
+  .sociallinks a {
+      margin-right: 1rem;
+  }
+  
+  .sociallinks a:last-child {
+      margin-right: 0;
+  }
+  
