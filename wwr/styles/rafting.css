@@ -1,46 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Chango&display=swap');
 
-:root {
-    --primary-color: #000447;
-    --secondary-color: #FFB300;
-    --accent1-color: #00C4EB;
-    --accent2-color: #FF4800;
-
-    --heading-font: 'Chango', serif;
-    --paragrapgh-font: 'Afacad', serif;
-
-    --nav-background-color: #000447;
-    --nav-link-color: #FF4800;
-    --nav-hover-link-color: #00C4EB;
-    --nav-hover-background-color: #FFB300;
-}
-
-.hero {
-    font-family: var(--Chango);
-    color: var(--primary-color);
-    position: relative;
-
-}
-
-.hero h1 {
-    position: absolute;
-}
-
-.hero article {
-    position: absolute;
-}
-
-.hero img {
-    float: right;
-}
-
-.sociallinks a img {
-    text-decoration: none; 
-  }  */
-
-  @import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Chango&display=swap');
-
-  :root {
+ :root {
       --primary-color: #000447;
       --secondary-color: #FFB300;
       --accent1-color: #00C4EB;
@@ -55,12 +15,12 @@
       --nav-hover-background-color: #FFB300;
   }
   
-  body {
+body {
       margin: 0;
       font-family: var(--paragraph-font);
   }
   
-  .header-container {
+.header-container {
       display: grid;
       grid-template-columns: auto 1fr auto;
       align-items: center;
@@ -69,21 +29,21 @@
       color: var(--secondary-color);
   }
   
-  .header-container .logo {
+.header-container .logo {
       max-width: 100px;
   }
   
-  .header-container h1 {
+.header-container h1 {
       margin: 0;
       font-family: var(--heading-font);
   }
   
-  .navbar {
+.navbar {
       display: flex;
       justify-content: flex-end;
   }
   
-  .navbar a {
+.navbar a {
       text-decoration: none;
       color: var(--nav-link-color);
       margin-left: 1rem;
@@ -91,32 +51,32 @@
       transition: background-color 0.3s, color 0.3s;
   }
   
-  .navbar a:first-child {
+.navbar a:first-child {
       margin-left: 0;
   }
   
-  .navbar a:hover {
+.navbar a:hover {
       color: var(--nav-hover-link-color);
       background-color: var(--nav-hover-background-color);
   }
   
-  .hero {
+.hero {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
   }
   
-  .hero img {
+.hero img {
       max-width: 100%;
   }
   
-  .hero article {
+.hero article {
       max-width: 800px;
       margin: 0 auto;
   }
   
-  .history {
+.history {
       padding: 1rem;
       font-family: var(--paragraph-font);
       color: var(--primary-color);
@@ -124,32 +84,32 @@
       border-radius: 8px;
   }
   
-  .adventures {
+.adventures {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       padding: 1rem;
   }
   
-  .adventures figure {
+.adventures figure {
       flex: 1 1 calc(20% - 1rem);
       margin: 0.5rem;
       text-align: center;
   }
   
-  .adventures img {
+.adventures img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
   }
   
-  .adventures figcaption {
+.adventures figcaption {
       margin-top: 0.5rem;
       font-family: var(--heading-font);
       color: var(--primary-color);
   }
   
-  footer {
+footer {
       background-color: #333;
       color: #fff;
       padding: 1rem;
@@ -157,7 +117,7 @@
       position: relative;
   }
   
-  .sociallinks {
+.sociallinks {
       display: flex;
       justify-content: flex-end;
       position: absolute;
@@ -165,11 +125,11 @@
       bottom: 1rem;
   }
   
-  .sociallinks a {
+.sociallinks a {
       margin-left: 1rem;
   }
   
-  .sociallinks a img {
+.sociallinks a img {
       width: 24px;
       height: 24px;
   }
