@@ -133,4 +133,70 @@ footer {
       width: 24px;
       height: 24px;
   }
-  
+
+/*Contact Us Form*/
+body, h1, form, input, textarea, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: centre;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+} 
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #000447;
+    color: #00C4EB;
+    border: none;
+    /* cursor: pointer; */
+    font-size: 16px;
+}
+
+.inline-group {
+  display: flex;
+  align-items: center;
+}
+
+.inline-group label {
+  display: inline; /* Override block display */
+  margin-left: 10px; /* Add space between input and label */
+}
