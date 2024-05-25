@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Chango&display=swap');
 
  :root {
-      --primary-color: #000447;
+      --primary-color: #FF4800;
       --secondary-color: #FFB300;
       --accent1-color: #00C4EB;
-      --accent2-color: #FF4800;
+      --accent2-color: #000447;
   
       --heading-font: 'Chango', serif;
       --paragraph-font: 'Afacad', serif;
