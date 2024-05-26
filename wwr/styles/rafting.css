@@ -145,14 +145,13 @@ body {
   font-family: Arial, sans-serif; /* Ensure font-family is set */
   background-color: #f4f4f4;
   padding: 20px;
-  display: center; /* Changed to flex */
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
 }
 
