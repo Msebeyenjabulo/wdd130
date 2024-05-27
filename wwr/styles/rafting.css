@@ -1,24 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Chango&display=swap');
 
- :root {
-      --primary-color: #FF4800;
-      --secondary-color: #FFB300;
-      --accent1-color: #00C4EB;
-      --accent2-color: #000447;
+:root {
+  --primary-color: #FF4800; /* Bright and vibrant */
+  --accent1-color: #00C4EB; /* Bright and contrasting */
+  --accent2-color: #000447; /* Dark and contrasting */
+  --secondary-color: #FFB300; /* Bright and slightly muted */
+
+  --heading-font: 'Chango', serif;
+  --paragraph-font: 'Afacad', serif;
+
+  --nav-background-color: #000447;
+  --nav-link-color: #FF4800;
+  --nav-hover-link-color: #00C4EB;
+  --nav-hover-background-color: #FFB300;
+}
+
   
-      --heading-font: 'Chango', serif;
-      --paragraph-font: 'Afacad', serif;
-  
-      --nav-background-color: #000447;
-      --nav-link-color: #FF4800;
-      --nav-hover-link-color: #00C4EB;
-      --nav-hover-background-color: #FFB300;
-  }
-  
-body {
+/*body {
       margin: 0;
       font-family: var(--paragraph-font);
-  }
+  }*/
   
 .header-container {
       display: grid;
@@ -183,12 +184,12 @@ h1 {
 
 .contact-container {
     display: flex;
-    max-width: 1200px;
+    max-width: 1270px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 1.0); /* White background with 80% opacity */
+    /*background-color: rgba(255, 255, 255, 1.0); /* White background with 80% opacity */
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 0 10px rgba(0, 0, 0);*/
     gap: 20px; /* Space between the contact info and map */
 }
 
