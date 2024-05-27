@@ -134,7 +134,33 @@ footer {
       height: 24px;
   }
 
-/*Contact Us Form*/
+/*Contact page*/
+
+/* Hero section */
+.hero {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 7em; 
+  color: #fff; 
+  text-shadow: 2px 2px 4px #000447; 
+  z-index: 1; /*text is above the image */
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  /*styling for the big image as needed */
+}
+
+/*contact form*/
 body, h1, form, input, textarea, select, button {
   margin: 0;
   padding: 0;
@@ -151,19 +177,19 @@ body {
 }
 
 h1 {
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
 .contact-container {
-  display: flex;
-  max-width: 1200px;
-  width: 100%;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  gap: 20px; /* Space between the contact info and map */
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1.0); /* White background with 80% opacity */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap: 20px; /* Space between the contact info and map */
 }
 
 .contact-info {
@@ -226,8 +252,8 @@ button {
 }
 
 .inline-group label {
-  display: inline; /* Override block display */
-  margin-left: 10px; /* Add space between input and label */
+  display: inline; /*override block display */
+  margin-left: 10px; /*add space between input and label */
 }
 
 
