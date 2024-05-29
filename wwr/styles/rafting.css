@@ -4,12 +4,12 @@
   --primary-color: #FF4800; /* Bright and vibrant */
   --accent1-color: #00C4EB; /* Bright and contrasting */
   --accent2-color: #000447; /* Dark and contrasting */
-  --secondary-color: #FFB300; /* Bright and slightly muted */
+  --secondary-color: #000447;  /*#FFB300;*/ /* Bright and slightly muted */
 
   --heading-font: 'Chango', serif;
   --paragraph-font: 'Afacad', serif;
 
-  --nav-background-color: #000447;
+  --nav-background-color: #00C4EB;/*#000447;*/
   --nav-link-color: #FF4800;
   --nav-hover-link-color: #00C4EB;
   --nav-hover-background-color: #FFB300;
@@ -27,16 +27,17 @@
       align-items: center;
       padding: 1rem;
       background-color: var(--nav-background-color);
-      color: var(--secondary-color);
+      height: 100px;
   }
   
 .header-container .logo {
-      max-width: 100px;
+      max-width: 124px;
   }
   
-.header-container h1 {
+.header-container {
       margin: 0;
       font-family: var(--heading-font);
+      color: var(--secondary-color);
   }
   
 .navbar {
@@ -49,7 +50,8 @@
       color: var(--nav-link-color);
       margin-left: 1rem;
       padding: 0.5rem 1rem;
-      transition: background-color 0.3s, color 0.3s;
+      /*transition: background-color 0.3s, color 0.3s;*/
+      color: var(--secondary-color);
   }
   
 .navbar a:first-child {
@@ -57,7 +59,7 @@
   }
   
 .navbar a:hover {
-      color: var(--nav-hover-link-color);
+      color: var(--nav-link-color);
       background-color: var(--nav-hover-background-color);
   }
   
@@ -69,7 +71,7 @@
   }
   
 .hero img {
-      max-width: 100%;
+      max-width: 1700px;
   }
   
 .hero article {
@@ -111,12 +113,18 @@
   }
   
 footer {
-      background-color: #333;
+      background-color: var(--nav-hover-background-color);
       color: #fff;
       padding: 1rem;
       text-align: center;
       position: relative;
   }
+
+footer p {
+  font-family: var(--paragraph-font);
+  color: var(--accent2-color);
+  font-size: 1.2rem;
+}
   
 .sociallinks {
       display: flex;
@@ -319,6 +327,8 @@ button {
 .call-to-action {
   text-align: center;
   margin: 20px 0;
+  font-family: var(--paragraph-font);
+  font-size: 1.4rem;
 }
 
 .call-to-action .cta-button {
@@ -358,9 +368,10 @@ button {
 }
 
 .trip h2 {
+  color: var(--nav-link-color);
   font-family: var(--heading-font);
   margin: 10px 0;
-  
+  text-shadow: 1px 1px 2px var(--nav-hover-background-color);
 }
 
 .trip p {
@@ -381,6 +392,8 @@ button {
 .trip-table th, .trip-table td {
   padding: 10px;
   border: 1px solid var(--accent2-color);
+  font-family: var(--paragraph-font);
+  font-size: 20px;
 }
 
 .trip-table th {
