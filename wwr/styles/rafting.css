@@ -95,16 +95,17 @@
   font-size: 3em;
 }
 
+.about-titles {
+  font-family: var(--paragraph-font);
+  font-size: 2em;
+  color: var(--nav-link-color);
+}
 
-.history {
-      padding: 1rem;
-      font-family: var(--paragraph-font);
-      color: var(--primary-color);
-      background-color: var(--secondary-color);
-      border-radius: 8px;
-  }
+.about-paragraph {
+  font-family: var(--paragraph-font);
+}
   
-.adventures {
+/* .adventures {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -127,7 +128,32 @@
       margin-top: 0.5rem;
       font-family: var(--heading-font);
       color: var(--primary-color);
-  }
+  } */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two columns */
+    gap: 1rem; /* Gap between items */
+    padding: 1rem;
+    /* background-color: var(--accent1-color); */
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    /* border-radius: 8px; */
+}
+
+.grid-item figcaption {
+    margin-top: 0.5rem;
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+
   
 footer {
       background-color: var(--nav-hover-background-color);
@@ -197,7 +223,7 @@ body, h1, form, input, textarea, select, button {
 body {
   font-family: Arial, sans-serif; 
   background-color: #f4f4f4;
-  padding: 20px;
+  /* padding: 20px; */
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -212,10 +238,8 @@ h1 {
     display: flex;
     max-width: 1270px;
     width: 100%;
-    /*background-color: rgba(255, 255, 255, 1.0); /* White background with 80% opacity */
     padding: 20px;
     border-radius: 5px;
-    /*box-shadow: 0 0 10px rgba(0, 0, 0);*/
     gap: 20px; /* Space between the contact info and map */
 }
 
@@ -239,7 +263,14 @@ h1 {
   }
 }
 
-form {
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+form { 
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
@@ -267,10 +298,11 @@ input[type="text"], input[type="number"], textarea, select, button {
 }
 
 button {
-  background-color: #000447;
-  color: #00C4EB;
+  font-family: var(--paragraph-font);
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
   border: none;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .inline-group {
@@ -538,7 +570,8 @@ button {
 .grid-item h2 {
   padding: 20px;
   color: var(--nav-link-color);
-  text-shadow: 1px 1px 2px var(--nav-hover-background-color);
+  /* text-shadow: 1px 1px 2px var(--nav-hover-background-color); */
+  /* -webkit-text-stroke: 0.5px #000447; */
   font-family: var(--heading-font);
   font-size: 1.5em;
 }
