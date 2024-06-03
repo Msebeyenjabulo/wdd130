@@ -91,6 +91,10 @@
     z-index: 1;
 }
 
+.home-page-title {
+  font-size: 3em;
+}
+
 
 .history {
       padding: 1rem;
