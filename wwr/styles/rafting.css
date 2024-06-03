@@ -20,6 +20,11 @@
       margin: 0;
       font-family: var(--paragraph-font);
   }*/
+
+body {
+    background-color: lightblue; /* Temporary to verify CSS is loading */
+}
+
   
 .header-container {
       display: grid;
@@ -412,7 +417,7 @@ button {
 
 /**Home page/
 /* Hero section */
-.hero {
+/*.hero {
   position: relative;
   text-align: center;
   color: white;
@@ -430,6 +435,28 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3em;
+  text-shadow: 2px 2px 4px #000;
+}*/
+
+/* Home Page Specific Styles */
+.home .hero {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home .hero img {
+  width: 100%;
+  height: auto;
+}
+
+.home .hero h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  color: #fff;
   text-shadow: 2px 2px 4px #000;
 }
 
