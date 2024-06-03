@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Club Rafting</title>
-    <meta name="description" content="Get in touch with Club Rafting for more information about our trips and services. We look forward to hearing from you.">
+    <title>Contact | Club Rafting</title>
+    <meta name="description" content="Msebeyenjabulo Magubane, WDD130, Rafting Contact Page">
+    <meta name="author" content="Msebeyenjabulo Magubane">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
     <header class="header-container">
         <img src="images/ClubRaftingLogo.png" alt="Club Rafting Site Logo" class="logo">
+        <!--<h1>Club Rafting</h1> -->
         <nav class="navbar">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -17,37 +19,131 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
+     <div class="hero">
+        <h1>Contact Us</h1>
+        <img src="images/rafting12_1024.jpg" alt="People on a raft waving">
+    </div>
     <main>
-        <section class="hero">
-            <img src="images/contact-hero.jpg" alt="Contact Us">
-            <h1>Contact Us</h1>
-        </section>
-        <section class="contact-container">
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Submit</button>
-            </form>
-            <div class="contact-info">
-                <h2>Get in Touch</h2>
-                <p>Email: info@clubrafting.com</p>
-                <p>Phone: +123 456 7890</p>
-                <p>Address: 123 Adventure Lane, Rafting City, Country</p>
-            </div>
-        </section>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Club Rafting Contact Information</h2>
+            <h3>Address</h3>
+            <p>123 River Road, Rapids City</p>
+            <h3>Phone Number</h3>
+            <p>(555) 123-4567</p>
+            <h3>Email</h3>
+            <p>clubrafting@gmail.com</p>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7121212.200163437!2d22.789825699999987!3d-29.365768199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef356acf0d3d33b%3A0xa46b46a09d234b11!2sOrange%20River!5e0!3m2!1sen!2sza!4v1716639448967!5m2!1sen!2sza" width="300" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+        
+        <h1>Send Us A Message</h1>
+<form action="#" method="post">
+    <!-- Input 1 -->
+    <div class="form-group">
+        <label for="input1">Name:</label>
+        <input type="text" id="input1" name="input1" required>
+    </div>
+
+    <!-- Input 2 -->
+    <div class="form-group">
+        <label for="input2">Email:</label>
+        <input type="text" id="input2" name="input2" required>
+    </div>
+
+    <!-- Radio Title -->
+    <div class="form-group">
+        <label>Purpose of message:</label>
+    </div>
+
+    <!-- Radio 1 -->
+    <div class="form-group inline-group">
+        <input type="radio" id="radio1" name="purpose" value="general-inquiry" required>
+        <label for="radio1">General Inquiry</label>
+    </div>
+
+    <!-- Radio 2 -->
+    <div class="form-group inline-group">
+        <input type="radio" id="radio2" name="purpose" value="reservation-question" required>
+        <label for="radio2">Reservation Question</label>
+    </div>
+
+    <!-- Radio 3 -->
+    <div class="form-group inline-group">
+        <input type="radio" id="radio3" name="purpose" value="website-suggestion" required>
+        <label for="radio3">Website Suggestion</label>
+    </div>
+
+    <!-- Message Input -->
+    <div class="form-group">
+        <label for="message">Your message:</label>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+    </div>
+
+    <!-- Checkbox -->
+    <div class="form-group inline-group">
+        <input type="checkbox" id="checkbox1" name="newsletter" required>
+        <label for="checkbox1">Please subscribe me to the monthly newsletter</label>
+    </div>
+
+    <!-- Submit Button -->
+    <div class="form-group">
+        <button type="submit">Submit Quiz</button>
+    </div>
+</form>
+
+
+<div class="employee-container">
+    <h1>Our Employees</h1>
+    <div class="employee">
+        <img src="images/Audrey.jpeg" alt="A female clubrafting employee" width="185">
+        <h3>Audrey</h3>
+        <p>Manager</p>
+    </div>
+    <div class="employee">
+        <img src="images/Asher.jpeg" alt="A male clubrafting employee" width="200">
+        <h3>Asher</h3>
+        <p>Instructor</p>
+    </div>
+    <div class="employee">
+        <img src="images/Debby.jpeg" alt="A female clubrafting employee" width="200">
+        <h3>Debby</h3>
+        <p>Guide</p>
+    </div>
+    <div class="employee">
+        <img src="images/Kelly.jpeg" alt="A female clubrafting employee" width="200">
+        <h3>Kelly</h3>
+        <p>Coordinator</p>
+    </div>
+    <div class="employee">
+        <img src="images/Matt.jpeg" alt="A male clubrafting employee" width="200">
+        <h3>Matt</h3>
+        <p>Guide</p>
+    </div>
+    <div class="employee">
+        <img src="images/Shuan.jpeg" alt="A male clubrafting employee" width="200">
+        <h3>Shuan</h3>
+        <p>Photographer</p>
+    </div>
+</div>
+
     </main>
     <footer>
-        <p>©️2024 | Club Rafting | Msebeyenjabulo Magubane | WDD 130</p>
+        <p>©️2024 | Rafting Site Document| Msebeyenjabulo Magubane | WDD 130</p>
         <nav class="sociallinks">
-            <a href="https://facebook.com"><img src="images/Facebook_Icon.webp" alt="Facebook"></a>
-            <a href="https://instagram.com"><img src="images/Instagram_Icon.webp" alt="Instagram"></a>
-            <a href="https://twitter.com"><img src="images/Twitter_X_Icon.webp" alt="Twitter"></a>
+            <a href="https://facebook.com">
+                <img src="images/Facebook_ Icon.webp" alt="Facebook">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/Instagram_Icon.webp" alt="instagram">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/Twiiter_X_ Icon.webp" alt="Twitter">
+            </a>
         </nav>
-        <a href="images/contact-wireframe.png" class="wireframe-link">Wireframe</a>
+        <a href="https://app.moqups.com/AYMmGNRXhqhWCoaWPao2SNQyX92LQFVT/view/page/a8b49fd9f">Wireframe</a>
     </footer>
 </body>
 </html>
